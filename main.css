@@ -444,13 +444,7 @@ a {
       padding: 10 !important;
     }
     #circle {
-        -webkit-transform: scale(0.9);
-        -ms-transform: scale(0.9);
-        transform: scale(0.9);
-        -webkit-transform: rotate(-90deg);
-        -ms-transform: rotate(-90deg);
-        transform: rotate(-90deg);
-        margin-left: -1099px;
+      display: none;
     }
     #ontheway {
         height: 200px;
@@ -467,10 +461,10 @@ a {
     }
     #think {
         opacity: 0;
-        -webkit-transform: scale(0.5);
-        -ms-transform: scale(0.5);
-        transform: scale(0.5);
-        margin-left: -58px;
+        -webkit-transform: scale(0.3);
+        -ms-transform: scale(0.3);
+        transform: scale(0.3);
+        margin-left: -108px;
         margin-top: 86px;
         width: 634px;
     }
