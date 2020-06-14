@@ -42,7 +42,7 @@ a {
     background-image: -o-linear-gradient(264.33deg, #2f42c2 0, #00c4ff 100%);
     background-image: linear-gradient(185.67deg, #2f42c2 0, #00c4ff 100%);
     width: 100%;
-    height: 650px;
+    height: 700px;
     margin-top: -431px;
     -webkit-clip-path: polygon(0 13%, 100% 0, 100% 100%, 0 100%);
     clip-path: polygon(0 13%, 100% 0, 100% 100%, 0 100%);
@@ -380,11 +380,16 @@ a {
 #wecancont {
     font-family: Rubik;
     font-weight: 400;
-    padding-bottom: 20px;
     font-size: 40px;
     margin-left: 88px;
     text-align: left;
+    padding-bottom: 0 !important;
     color: #fff;
+}
+#wecancont img{
+  width: 30px;
+  height: 30px;
+  padding-bottom: 0 !important;
 }
 @media only screen and (max-width: 600px) {
     #logocircle {
@@ -429,7 +434,13 @@ a {
         font-weight: 400;
         margin-left: 88px;
         text-align: left;
+          display: flex;
         color: #fff;
+    }
+    #wecancont img{
+      width: 50px;
+      height: 50px;
+      padding: 10 !important;
     }
     #circle {
         -webkit-transform: scale(0.9);
