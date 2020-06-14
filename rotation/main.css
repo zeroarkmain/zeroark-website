@@ -1,0 +1,20 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.top{
+  height: 800px;
+  width: 100%;
+  text-align: center;
+  padding-top: 200px;
+}
+.anime1{
+    height: 800px;
+  text-align: center;
+}
+p{
+margin: 30px;
+}
+.text1{
+  opacity: 1;
+}

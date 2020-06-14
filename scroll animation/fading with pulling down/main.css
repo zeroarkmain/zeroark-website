@@ -1,0 +1,22 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.top{
+  height: 800px;
+  width: 100%;
+  text-align: center;
+  padding-top: 200px;
+}
+.anime1{
+    height: 800px;
+  text-align: center;
+}
+.text1{
+  opacity: 0;
+}
+.text1.scrollanimation-0n{
+  opacity: 1;
+  transform: translateY(30px);
+  transition: all 1.5s ease-out;
+}

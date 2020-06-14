@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <link rel="stylesheet" href="main.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
+  <body>
+<div class="top">
+<h2>SCROLL DOWN</h2>
+</div>
+<div class="anime1" id="anime1">
+<h2 class="text1" id="text1">animation one</h2>
+</div>
+<script type="text/javascript">
+  var controller = new ScrollMagic.Controller();
+
+  var anime1 = new ScrollMagic.Scene({
+  triggerElement: '#anime1',
+  triggerHook: 1
+  })
+  .setClassToggle('#text1','scrollanimation-0n')
+  .addTo(controller);
+</script>
+  </body>
+</html>

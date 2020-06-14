@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="main.css">
+<script src = "https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+<script src = "https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.js"></script>
+  </head>
+  <body>
+    <div class="top">
+    <h2>SCROLL DOWN</h2>
+    </div>
+    <div class="anime1" id="anime1">
+    <h2 class="text1" id="text1"> <p  class="on">ON</p> <p class="THE">THE</p> <p class="WAY">WAY</p> </h2>
+    </div>
+    <script type="text/javascript">
+      var anime1 = new TimelineLite();
+anime1
+.to('.on',50,{rotation:90,ease:Power1.easeOut })
+.to('.THE',50,{rotation:90,ease:Power1.easeOut })
+.to('.WAY',50,{rotation:90,ease:Power1.easeOut });
+
+var controller = new ScrollMagic.Controller();
+
+  var scene1 = new ScrollMagic.Scene({
+    triggerElement:'.anime1',
+    triggerHook:1,
+    duration:"50%"
+  })
+
+  .setTween(anime1)
+  .addTo(controller);
+    </script>
+  </body>
+</html>
