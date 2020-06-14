@@ -91,9 +91,9 @@ a {
     float: left;
     font-family: Rubik;
     font-weight: 400;
-    font-size: 163px;
+    font-size: 100px;
     text-align: left;
-    margin-top: 181px;
+    margin-top: 130px;
     margin-left: 65px;
     color: #fff;
 }
@@ -101,10 +101,10 @@ a {
     float: left;
     font-family: Dosis;
     font-weight: 400;
-    font-size: 79px;
+    font-size: 40px;
     text-align: left;
     color: #fff;
-    margin-top: 331px;
+    margin-top: 230px;
     margin-left: -442px;
     overflow: hidden;
 }
@@ -402,15 +402,16 @@ a {
         -webkit-transform: scale(0.45);
         -ms-transform: scale(0.45);
         transform: scale(0.45);
-        margin-left: -194px;
+        margin-left: -100px;
+        margin-top: 206px;
     }
     #udefine {
         width: 570px;
         -webkit-transform: scale(0.45);
         -ms-transform: scale(0.45);
         transform: scale(0.45);
-        margin-top: -86px;
-        margin-left: 4px;
+        margin-top: -46px;
+        margin-left: -10px;
     }
     #whyus {
         opacity: 0;
@@ -422,9 +423,9 @@ a {
     }
     #wecan {
         opacity: 0;
-        -webkit-transform: scale(0.6);
-        -ms-transform: scale(0.6);
-        transform: scale(0.6);
+        -webkit-transform: scale(0.5);
+        -ms-transform: scale(0.5);
+        transform: scale(0.5);
         margin-left: -106px;
     }
     #wecancont {
@@ -432,7 +433,7 @@ a {
         font-size: 64px;
         font-family: Rubik;
         font-weight: 400;
-        margin-left: 88px;
+        margin-left: 40px;
         text-align: left;
           display: flex;
         color: #fff;
