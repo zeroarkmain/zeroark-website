@@ -1,1 +1,1 @@
-# ZeroArk Landing Page 1.0
+# ZeroArk Landing Page
