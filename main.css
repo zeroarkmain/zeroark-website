@@ -474,7 +474,7 @@ a {
     #succ {
         font-family: Rubik;
         font-weight: 400;
-        font-size: 218px;
+        font-size: 180px;
         color: #fff;
         opacity: 0.1;
         -webkit-transform: rotate(90deg);
@@ -517,8 +517,8 @@ a {
         font-family: Muli;
         float: right;
         font-weight: 900;
-        font-size: 91px;
-        margin-top: -255px;
+        font-size: 33px;
+        margin-top: -200px;
         text-align: right;
         margin-right: 12px;
         color: #fff;
